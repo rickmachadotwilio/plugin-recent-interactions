@@ -1,0 +1,23 @@
+{
+  "name": "plugin-recent-interaction-list",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@twilio-paste/core": "^10.20.0",
+    "@twilio-paste/icons": "^5.7.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-moment": "^1.1.2",
+    "react-router-dom": "^5.2.0",
+    "twilio": "^3.82.0",
+    "@twilio/flex-plugin-scripts": "6.0.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "2.0.0-beta.2",
+    "react-test-renderer": "17.0.2"
+  }
+}
